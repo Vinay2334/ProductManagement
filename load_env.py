@@ -21,5 +21,5 @@ def update_zappa_settings():
     with open('zappa_settings.json', 'w') as file:
         json.dump(zappa_settings, file, indent=4)
     
-if __name__=="main":
+if __name__=="__main__":
     update_zappa_settings()
