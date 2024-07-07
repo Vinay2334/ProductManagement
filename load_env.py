@@ -7,8 +7,6 @@ def update_zappa_settings():
         "DB_NAME": config('DB_NAME'),
         "DB_USER": config('DB_USER'),
         "DB_PASS": config('DB_PASS'),
-        "S3_BUCKET_NAME": config('S3_BUCKET_NAME'),
-        "AWS_REGION": config('AWS_REGION'),
     }
 
     with open('zappa_settings.json', 'r') as file:
@@ -16,6 +14,8 @@ def update_zappa_settings():
     
     zappa_settings['production']['environment_variables'] = env_vars
 
+    print("Zappa-set")
+    print(env_vars)
     print(zappa_settings)
 
     with open('zappa_settings.json', 'w') as file:
