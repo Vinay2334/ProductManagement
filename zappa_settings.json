@@ -4,6 +4,6 @@
         "django_settings": "ProductManagement.settings",
         "project_name": "ProductManagement",
         "runtime": "python3.11",
-        "S3_BUCKET_NAME": "zappa-project-digiprod"
+        "s3_bucket": "zappa-project-digiprod"
     }
 }
