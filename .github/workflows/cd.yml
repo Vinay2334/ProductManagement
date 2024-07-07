@@ -23,13 +23,14 @@ jobs:
         with:
           python-version: 3.9
 
-      - name: Set up virtual envirionment
+      - name: Set up virtual environment
         run: |
           python -m venv venv
           source venv/bin/activate
 
       - name: Install dependencies
         run: |
+          sudo apt update
           source venv/bin/activate
           python -m pip install --upgrade pip
           pip install -r requirements.txt
