@@ -1,0 +1,7 @@
+{
+    "production": {
+        "django_settings": "ProductManagement.settings",
+        "project_name": "ProductManagement",
+        "runtime": "python3.11"
+    }
+}
