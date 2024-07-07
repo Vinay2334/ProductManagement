@@ -86,11 +86,11 @@ DATABASES = {
     #     'PASSWORD': os.environ.get('DB_PASS'),
     # }
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'HOST': config('DB_HOST'),
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASS'),
+        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        # 'HOST': config('DB_HOST'),
+        # 'NAME': config('DB_NAME'),
+        # 'USER': config('DB_USER'),
+        # 'PASSWORD': config('DB_PASS'),
     }
 }
 
@@ -134,6 +134,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-print('envvar')
-print(os.environ.get('DB_HOST'))
