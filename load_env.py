@@ -14,10 +14,6 @@ def update_zappa_settings():
     
     zappa_settings['production']['environment_variables'] = env_vars
 
-    print("Zappa-set")
-    print(env_vars)
-    print(zappa_settings)
-
     with open('zappa_settings.json', 'w') as file:
         json.dump(zappa_settings, file, indent=4)
     

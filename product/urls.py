@@ -9,5 +9,4 @@ app_name = 'product'
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('products/', views.ListAllProducts.as_view(), name='all_products'),
 ]
