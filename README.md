@@ -121,5 +121,5 @@ https://8ok1nkalmb.execute-api.us-east-1.amazonaws.com/production/api/schema/doc
 
 #### Delete a product
 ```http
-  Delete /production/api/product/manage/{id}/
+  Delete /api/product/manage/{id}/
 ```
