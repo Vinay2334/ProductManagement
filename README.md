@@ -100,7 +100,7 @@ https://8ok1nkalmb.execute-api.us-east-1.amazonaws.com/production/api/schema/doc
 
 #### Update a product
 
-``http
+```http
   PUT /api/product/manage/{id}/
 ```
 | Parameter | Type     | Description                       |
