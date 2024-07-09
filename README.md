@@ -1,7 +1,7 @@
 
 # ProductMangement
 
-Deployed project at:- https://8ok1nkalmb.execute-api.us-east-1.amazonaws.com/production/
+Deployed AWS Lambda application at:- https://8ok1nkalmb.execute-api.us-east-1.amazonaws.com/production/
 
 ## Project Setup
 
