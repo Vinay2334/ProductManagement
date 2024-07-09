@@ -101,7 +101,7 @@ https://8ok1nkalmb.execute-api.us-east-1.amazonaws.com/production/api/schema/doc
 #### Update a product
 
 ``http
-  PUT /production/api/product/manage/{id}/
+  PUT /api/product/manage/{id}/
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -111,7 +111,7 @@ https://8ok1nkalmb.execute-api.us-east-1.amazonaws.com/production/api/schema/doc
 
 #### Partial update a product
 ```http
-  Patch /production/api/product/manage/{id}/
+  Patch /api/product/manage/{id}/
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
