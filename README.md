@@ -70,9 +70,8 @@ PROD=True
 ## API Reference
 
 #### Find the deployed API reference on 
-```
 https://8ok1nkalmb.execute-api.us-east-1.amazonaws.com/production/api/schema/docs/
-```
+
 
 #### Get all product
 
@@ -101,7 +100,7 @@ https://8ok1nkalmb.execute-api.us-east-1.amazonaws.com/production/api/schema/doc
 
 #### Update a product
 
-```http
+``http
   PUT /production/api/product/manage/{id}/
 ```
 | Parameter | Type     | Description                       |
